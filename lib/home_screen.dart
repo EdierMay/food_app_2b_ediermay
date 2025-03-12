@@ -6,13 +6,13 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 class HomeScreen extends StatelessWidget {
   List iconImages = [
     "assets/icon1.png",
-    "assets/icon2.jpg",
-    "assets/icon3.jpg",
-    "assets/icon4.jpg",
+    "assets/icon2.png",
+    "assets/icon3.png",
+    "assets/icon4.png",
     "assets/icon1.png",
-    "assets/icon2.jpg",
-    "assets/icon3.jpg",
-    "assets/icon4.jpg",
+    "assets/icon2.png",
+    "assets/icon3.png",
+    "assets/icon4.png",
   ];
   List Titles = [
     "Veggie Taco Has",
@@ -204,7 +204,7 @@ class HomeScreen extends StatelessWidget {
                                       ],
                                     ),
                                     child: Image.asset(
-                                      "assets/${TitlesImages[index]}.jpg",
+                                      "assets/${TitlesImages[index]}.png",
                                       height: 140,
                                       width: 140,
                                       fit: BoxFit.cover,
@@ -286,7 +286,7 @@ class HomeScreen extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(80),
                               ),
                               child: Image.asset(
-                                "assets/fruit_saldad.png",
+                                "assets/fruit_salad.png",
                                 height: 160,
                                 width: 160,
                               ),

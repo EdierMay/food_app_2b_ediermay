@@ -9,9 +9,9 @@ void main() {
 class MyApp extends StatelessWidget {
   List IconImages = [
     "assets/icon1.png",
-    "assets/icon2.jpg",
-    "assets/icon3.jpg",
-    "assets/icon4.jpg"
+    "assets/icon2.png",
+    "assets/icon3.png",
+    "assets/icon4.png"
   ];
   List Titles = [
     "Veggie Taco Has",
