@@ -14,13 +14,13 @@ class MyApp extends StatelessWidget {
     "assets/icon4.png"
   ];
   List Titles = [
-    "Veggie Taco Has",
+    "Veggie Taco Hash",
     "Mix Veg Salad",
     "Chickpea Salad",
     "Chilli Salad",
   ];
   List TitlesImages = [
-    "veggie_taco_has",
+    "veggie_taco_hash",
     "mix_veg_salad",
     "chickpea_salad",
     "chilli_salad",
