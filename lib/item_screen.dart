@@ -29,6 +29,7 @@ class ItemScreen extends StatelessWidget {
                 Image.asset("assets/slide1.png"),
                 Image.asset("assets/slide2.png"),
                 Image.asset("assets/fruit_salad.png"),
+                Image.asset("assets/slide2.png"),
               ],
             ),
             SizedBox(height: 20),
@@ -159,7 +160,7 @@ class ItemScreen extends StatelessWidget {
                         width: 140,
                         decoration: BoxDecoration(
                           color: Colors.black,
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(5),
                         ),
                         child: Padding(
                           padding: EdgeInsets.all(8),
@@ -179,7 +180,7 @@ class ItemScreen extends StatelessWidget {
                                 width: 30,
                                 decoration: BoxDecoration(
                                   color: Colors.white24,
-                                  borderRadius: BorderRadius.circular(5),
+                                  borderRadius: BorderRadius.circular(10),
                                 ),
                                 child: Icon(
                                   CupertinoIcons.cart,
